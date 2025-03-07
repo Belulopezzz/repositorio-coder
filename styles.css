@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 { margin-top: 50px;
+}
+
+
+
+/* Cuerpo y fuente general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+    color: #171414;
+    line-height: 1.6;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer {
+    background: rgb(101, 204, 235);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Sección Colección */
+#coleccion {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr; 
+    gap: 10px; 
+    width: 100%;
+    
+  }
+  
+  img {
+    width: 100%; 
+    height: auto; 
+  }
+
+#coleccion h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.producto {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Sección Nosotros */
+#nosotros {
+    padding: 40px 20px;
+    background-color: #92195c;
+    text-align: center;
+}
+
+#nosotros h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Formulario de Contacto */
+#contacto {
+    padding: 40px 20px;
+}
+
+#contacto h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #D93654;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #C32346;
+}
