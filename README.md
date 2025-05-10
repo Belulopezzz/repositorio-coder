@@ -9,8 +9,8 @@ Este proyecto web fue desarrollado como parte de un curso de desarrollo front-en
 ## Secciones del sitio
 
 - *Inicio*: Bienvenida y mensaje principal.
-- *Colección*: Galería de productos únicos.
-- *Nosotros*: Breve presentación del proyecto y su espíritu artesanal.
+- *Colección*: Galería de productos.
+- *Nosotros*: Breve presentación del proyecto.
 - *Contacto*: Formulario para enviar consultas.
 
 ## Tecnologías utilizadas
