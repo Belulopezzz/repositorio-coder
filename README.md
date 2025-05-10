@@ -4,7 +4,7 @@ Arela es un sitio web dedicado a la exhibición de piezas únicas hechas a mano 
 
 ## Descripción
 
-Este proyecto web fue desarrollado como parte de un curso de desarrollo front-end. El objetivo principal es mostrar una pequeña tienda online ficticia llamada Arela, enfocada en productos artesanales, con un diseño atractivo, responsive y funcional.
+El objetivo principal es mostrar una pequeña tienda online ficticia llamada Arela, enfocada en productos artesanales, con un diseño atractivo, responsive y funcional.
 
 ## Secciones del sitio
 
